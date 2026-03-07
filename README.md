@@ -20,7 +20,7 @@ npm install
 cp .env.example .env
 
 # Add your API key
-# ALIBABA_API_KEY=sk-...
+# GROQ_API_KEY=gsk_...
 
 # Run dev server
 npm run dev
@@ -48,7 +48,7 @@ npm run dev
 | Language | TypeScript |
 | Styling | Tailwind CSS |
 | UI | shadcn/ui components |
-| LLM | Alibaba Qwen (DashScope) |
+| LLM | Groq (Llama 3 / Mixtral) |
 | Database | MongoDB Atlas (optional) |
 | Deploy | Vercel |
 
@@ -89,12 +89,12 @@ npm start
 
 ## API Keys
 
-Get your Alibaba Cloud API key from:
-https://dashscope.console.aliyun.com/
+Get your Groq API key from:
+https://console.groq.com/keys
 
 Add to `.env`:
 ```
-ALIBABA_API_KEY=sk-...
+GROQ_API_KEY=gsk_...
 ```
 
 ## License
