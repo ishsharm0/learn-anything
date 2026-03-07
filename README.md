@@ -1,6 +1,6 @@
 # Learn Anything
 
-Interactive lessons for any topic. Built with Next.js.
+Interactive lessons for any topic built with Next.js.
 
 ## Features
 
